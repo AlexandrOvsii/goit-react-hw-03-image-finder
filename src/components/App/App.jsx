@@ -70,7 +70,7 @@ class App extends Component {
         this.state.page
       );
 
-      console.log('Total Hits:', images.totalHits);
+      // console.log('Total Hits:', images.totalHits);
 
       if (this.state.imageCount >= 500) {
         console.log('Конец количества изображений');
